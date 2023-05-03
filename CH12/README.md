@@ -203,6 +203,7 @@ function countdown(n) {
 ### 중첩함수(내부함수)
 
 함수 내부에 정의 된 함수
+
 ```
 function outer() {
     var x=1;
@@ -238,6 +239,7 @@ repeat(5, function (i) {
 <br>
 외부 함수 -> 외부 상태에 의존하거나 외부 상태를 변경하는, 부수 효과가 있는 함수
 <br>
+
 ```
 var count = 0; // 현재 카운트를 나타내는 상태
 
